@@ -95,7 +95,7 @@ body {
 /* Media queries for responsive design */
 @media (max-width: 768px) {
     .navbar ul {
-        flex-direction: row-reverse;
+        flex-direction: row;
         align-items: center;
     }
 
