@@ -95,7 +95,7 @@ body {
 /* Media queries for responsive design */
 @media (max-width: 768px) {
     .navbar ul {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
 
