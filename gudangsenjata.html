@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VALORANT</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
       body {
          background-image: url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/57e5d93a924bf34a0959177c30fc57d1238c5bf8-5120x828.png?auto=format&fit=fill&q=80&w=1885);
@@ -45,9 +46,17 @@
 
 <!-- senjata -->
 <div class="senjata">
-    <h2>PILIH SENJATAMU</h2>
+  <div data-aos="fade-down"
+  data-aos-duration="1000">
+  <h2>PILIH SENJATAMU</h2>
+</div>
+
     <div class="card-container">
         </div>
+        <div data-aos="flip-up"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="850">
         <div class="card-container">
             <div class="card">
               <img src="photos/piupiu.jpg" alt="Image 1">
@@ -186,6 +195,14 @@
         
      </div>
 </div>
-
      </div>
+ </div>
 
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script>
+         AOS.init();
+       </script>
+
+    </body>
+     </html>
